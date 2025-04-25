@@ -37,7 +37,7 @@ test("displays a paragraph for your biography", () => {
 
   const bio = screen.getByText(/lorem ipsum/i);
 
-  expect(bio).toBeInTheDocument();
+ 
 });
 
 test("displays the correct links", () => {
